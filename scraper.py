@@ -65,6 +65,7 @@ def scrape_date_links(link):
 
     item_info = {
         "shipping_days": shipping_days,
+        "shipping_date": date,
         "store_name": store_name,
         "item_name": item_name,
         "initial_price": float(initial_price[1:].replace(",", "")),
