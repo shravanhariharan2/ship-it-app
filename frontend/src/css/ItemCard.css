@@ -1,0 +1,43 @@
+.card {
+    display: inline-block;
+    text-align: left;
+
+    width: 1000px;
+    height: 300px;
+
+    padding-top: 20px;
+    margin-bottom: 5vh;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.16);
+    box-sizing: border-box;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-left: 2%;
+}
+.card-store {
+    margin-left: 25%;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+.card-price {
+    margin-left: 25%;
+}
+.item-image {
+    float: left;
+    margin-left: 3vh;
+}
+.money {
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-order {
+    position: absolute;
+    left: 80%;
+    bottom: 10%;
+    width: 150px;
+    float: right;
+}
